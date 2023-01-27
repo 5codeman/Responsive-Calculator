@@ -87,6 +87,12 @@ body {
 
 /* media query for responsiveness */
 
+@media screen and (min-width: 1000px) {
+  #container {
+    height: 620px;
+    width: 720px;
+  }
+}
 @media screen and (max-width: 750px) {
   #container {
     height: 100vh;
